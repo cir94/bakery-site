@@ -1,0 +1,22 @@
+body {
+    background-color: thistle;
+    font-family: Arial;
+}
+
+#header {
+    display: grid;
+    grid-template: repeat(2, 70px) / repeat(1, 200px);
+    justify-content: center;
+}
+
+#header h1 {
+    border: white;
+}
+
+#header ul {
+    display: grid;
+    grid-template: repeat(1, 40px) / repeat(3, 100px);
+    position: relative;
+    list-style: none;
+    justify-content: center;
+}
