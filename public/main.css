@@ -9,6 +9,11 @@ body {
     justify-content: center;
 }
 
+#header a {
+    color: #b6a82c;
+    text-decoration: none;
+}
+
 #header h1 {
     border: white;
 }
@@ -19,4 +24,12 @@ body {
     position: relative;
     list-style: none;
     justify-content: center;
+}
+
+/* Sweets Page Styling */
+
+#sweetSelection {
+    display: grid;
+    grid-template: repeat(1, 100px) / repeat(3, 300px);
+    grid-gap: 10%;
 }
