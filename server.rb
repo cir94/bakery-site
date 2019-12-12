@@ -23,5 +23,5 @@ get '/cupcakes' do
 end
 
 get '/cookies' do
-    erb :cookies, :layout => :index
+    erb :cookies
 end

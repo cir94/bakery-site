@@ -42,3 +42,19 @@ body {
     grid-template: repeat(4, 300px) / repeat(4, 300px);
     justify-content: center;
 }
+
+/* Cake Page Styling */
+
+#cakeSelection {
+    display: grid;
+    grid-template: repeat(4, 300px) / repeat(4, 300px);
+    justify-content: center;
+}
+
+/* Cookie Page Styling */
+
+#cookieSelection {
+    display: grid;
+    grid-template: repeat(4, 300px) / repeat(4, 300px);
+    justify-content: center;
+}
