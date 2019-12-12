@@ -8,10 +8,10 @@ class Cookie
     end
 end
 
-class Muffin
+class Cupcake
     attr_reader :name
     def initialize(name)
-        @muffin_name = name
+        @cupcake_name = name
     end
 end
 
@@ -30,3 +30,4 @@ class Email
     end
 end
 
+chococup = Cupcake.new("Chocolate Cupcake")

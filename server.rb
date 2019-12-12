@@ -3,7 +3,7 @@ require 'httparty'
 require './sweets.rb'
 
 get '/' do
-   erb :index 
+   erb :index
 end
 
 get '/sweets' do
@@ -16,4 +16,12 @@ end
 
 get '/cakes' do
     erb :cakes
+end
+
+get '/cupcakes' do
+    erb :cupcakes
+end
+
+get '/cookies' do
+    erb :cookies, :layout => :index
 end

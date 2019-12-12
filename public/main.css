@@ -32,4 +32,13 @@ body {
     display: grid;
     grid-template: repeat(1, 100px) / repeat(3, 300px);
     grid-gap: 10%;
+    justify-content: center;
+}
+
+/* Cupcake Page Styling */
+
+#cupcakeSelection {
+    display: grid;
+    grid-template: repeat(4, 300px) / repeat(4, 300px);
+    justify-content: center;
 }
